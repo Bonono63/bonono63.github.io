@@ -3,6 +3,9 @@ html {
   margin: 0px;
   color: #fcc15a;
   background-color:#281501;
+  font-family: Times, sans-serif;
+  line-height: 1.5;
+  font-size: 16pt;
 }
 
 body {
@@ -32,13 +35,6 @@ body {
   background-color: #351702;
   text-decoration-line: none;
   justify-content: space-between;
-}
-
-.bio {
-  padding-bottom: 1em;
-  font-family: "Times New Roman", Times, serif;
-  line-height: 1.5;
-  font-size: 14pt;
 }
 
 navigation {
