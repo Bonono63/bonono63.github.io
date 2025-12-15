@@ -1,44 +1,63 @@
-html {
-  padding: 0px;
-  margin: 0px;
-  color: #fcc15a;
-  background-color:#281501;
-  font-family: Times, sans-serif;
-  line-height: 1.5;
-  font-size: 16pt;
+@font-face {
+  font-family: pixel-operator;
+  src: url(PixelOperator-Bold.ttf);
+  font-display: block;
+  font-style: normal;
 }
 
-body {
-  padding: 0px;
-  margin: 0px;
+@font-face {
+  font-family: noto-serif;
+  src: url(static/NotoSerif-Regular.ttf);
+  font-display: block;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: pixel-serif;
+  src: url(PixelSerif_16px_v02.otf);
+}
+
+@font-face {
+  font-family: IBM;
+  src: url(Web437_IBM_Model3x_Alt2.woff);
+}
+
+html {
+  color: #bbbbbb;
+  background-color:#010101;
+  font-family: noto-serif;
+  font-size: 12pt;
+}
+
+a {
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  text-decoration-thickness: auto;
+  text_decoration-color: currentcolor;
+  text-align: center;
+}
+
+h1 {
+  font-size: 11pt;
+  color: #bb0e32;
+  text-shadow: 0px 0px 24px #ff0000;
 }
 
 .content {
-  padding: 2em;
-  padding-left: 10%;
-  padding-right: 10%;
-  margin-top: 4em;
+  background-color: #090909;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.topbar {
-  position: fixed;
-  top: 0px;
-  height: 2em;
-  right: 0px;
-  left: 0px;
+.link-container {
   display: flex;
-  flex-flow: row;
-  padding-top: 0.3em;
-  padding-left: 20%;
-  padding-right: 20%;
-  color: #fc9314;
-  background-color: #351702;
-  text-decoration-line: none;
-  justify-content: space-between;
+  justify-content: center;
 }
 
-navigation {
-  display: flex;
-  flex-flow: row;
-  justify-content: space-evenly;
+.link-container-item {
+  padding-left: 2em;
+  padding-right: 2em;
 }
