@@ -1,25 +1,8 @@
 @font-face {
-  font-family: pixel-operator;
-  src: url(PixelOperator-Bold.ttf);
-  font-display: block;
-  font-style: normal;
-}
-
-@font-face {
   font-family: noto-serif;
   src: url(NotoSerif-Regular.ttf);
   font-display: block;
   font-style: normal;
-}
-
-@font-face {
-  font-family: pixel-serif;
-  src: url(PixelSerif_16px_v02.otf);
-}
-
-@font-face {
-  font-family: IBM;
-  src: url(Web437_IBM_Model3x_Alt2.woff);
 }
 
 html {
